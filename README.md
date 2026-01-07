@@ -48,13 +48,16 @@ See `results/README.md` for details.
 
 ## Tableau Visualizations
 
-Tableau dashboards were created using the SQL query results to visualize shipment performance and delays.
+Tableau dashboards are planned to visualize insights derived from the SQL analysis results.
 
-Visualizations include:
+Planned visualizations include:
 - Shipment Status Summary (On Time vs Delayed)
 - Delays by Origin City
 
-See `tableau/README.md` for dashboard descriptions and data sources.
+The Tableau folder currently contains documentation outlining planned dashboards and data sources.  
+Dashboards will be added in a future iteration of this project.
+
+See `tableau/README.md` for planned visualizations and data sources.
 
 ---
 
@@ -67,7 +70,9 @@ See `tableau/README.md` for dashboard descriptions and data sources.
 ---
 
 ## Project Status
-Complete — ready for portfolio use.
+
+Complete — SQL analysis, results generation, and documentation finalized.  
+Tableau dashboards are planned as a future enhancement.
 
 ---
 
