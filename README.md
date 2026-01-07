@@ -46,5 +46,13 @@ This project simulates a logistics environment where shipment delays impact oper
 - EXCEL
 - Tableau
 
+## Results
+
+The SQL analysis identifies:
+- Overall shipment performance (On Time vs Delayed)
+- Origin cities contributing most to delivery delays
+
+Query outputs are intended to be exported as tables or visualized in Tableau and stored in the `results/` folder.
+
 ## Project Status 
 In progress - data exploration and analysis underway. 
