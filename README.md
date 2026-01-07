@@ -1,7 +1,9 @@
-# shipment-delays-analysis
+# Shipment Delays Analysis
 
 ## Objective
-Analyze shipment data to identify patterns and locations associated with delivery delays.
+Analyze shipment data to identify patterns and locations associated with delivery delays, and present insights using SQL and Tableau visualizations.
+
+---
 
 ## SQL Analysis
 
@@ -11,14 +13,11 @@ Analyze shipment data to identify patterns and locations associated with deliver
 This query analyzes shipment data to compare the number of shipments delivered **On Time** versus **Delayed**.
 
 **What the query does:**
-- Groups shipments by delivery status
-- Counts the total number of shipments in each status category
+- Groups shipments by delivery status  
+- Counts the total number of shipments in each status category  
 
 **Expected Output:**
-A table showing the total number of shipments grouped by delivery status (On Time vs Delayed).
-
-**Why this matters:**
-This provides a high-level performance overview of the logistics operation and helps identify whether delays are a frequent issue.
+- A summary table showing the total number of shipments grouped by delivery status
 
 ---
 
@@ -28,31 +27,53 @@ This provides a high-level performance overview of the logistics operation and h
 This query analyzes shipment delays by origin city to determine which locations contribute the most to delivery delays.
 
 **What the query does:**
-- Filters shipments that were delayed
-- Groups results by origin city
-- Calculates the number of delayed shipments per city
+- Filters shipments that were delayed  
+- Groups results by origin city  
+- Calculates the number of delayed shipments per city  
 
 **Expected Output:**
-A table listing origin cities with the count of delayed shipments, ordered from most to least delays.
+- A table listing origin cities ordered from most to least delayed shipments
 
-**Why this matters:**
-This helps identify geographic locations that may require operational improvements, staffing adjustments, or routing changes.
-
-## Background
-This project simulates a logistics environment where shipment delays impact operations and efficiency. 
-
-## Tools Used
-- SQL
-- EXCEL
-- Tableau
+---
 
 ## Results
 
-The SQL analysis identifies:
-- Overall shipment performance (On Time vs Delayed)
-- Origin cities contributing most to delivery delays
+The `results/` folder contains outputs generated from the SQL analysis, including:
+- Exported summary tables (CSV)
+- Query result datasets used for visualization
 
-Query outputs are intended to be exported as tables or visualized in Tableau and stored in the `results/` folder.
+See `results/README.md` for details.
 
-## Project Status 
-In progress - data exploration and analysis underway. 
+---
+
+## Tableau Visualizations
+
+Tableau dashboards were created using the SQL query results to visualize shipment performance and delays.
+
+Visualizations include:
+- Shipment Status Summary (On Time vs Delayed)
+- Delays by Origin City
+
+See `tableau/README.md` for dashboard descriptions and data sources.
+
+---
+
+## Tools Used
+- SQL
+- Excel / CSV
+- Tableau
+- GitHub
+
+---
+
+## Project Status
+Complete — ready for portfolio use.
+
+---
+
+## Project Structure
+
+- `SQL/` – SQL queries used for analysis  
+- `data/` – Raw shipment dataset  
+- `results/` – CSV outputs generated from SQL queries  
+- `tableau/` – Tableau dashboard documentation and visuals
